@@ -893,7 +893,7 @@
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
+  var guest = 'nick,mail';
   guest = guest.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
   });
@@ -906,7 +906,7 @@
     placeholder: 'You can leave a comment here.',
     avatar: 'mm',
     meta: guest,
-    pageSize: '10' || 10,
+    pageSize: '13' || 10,
     visitor: false
   });
 </script>
