@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaohuang888.github.io/"/>
-  <updated>2019-02-17T14:06:52.456Z</updated>
+  <updated>2019-02-17T14:08:25.858Z</updated>
   <id>http://xiaohuang888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://xiaohuang888.github.io/2019/02/17/%E5%81%9A%E9%A2%98%E6%97%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%94%99%E8%AF%AF/"/>
     <id>http://xiaohuang888.github.io/2019/02/17/做题时的一些小错误/</id>
     <published>2019-02-17T13:27:19.986Z</published>
-    <updated>2019-02-17T14:06:52.456Z</updated>
+    <updated>2019-02-17T14:08:25.858Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="UVa11324-The-Largest-Clique"><a href="#UVa11324-The-Largest-Clique" class="headerlink" title="UVa11324 The Largest Clique"></a>UVa11324 The Largest Clique</h3><p>一道<code>Tarjan</code>的标准模板题。我写完代码后调试了将近一个半小时，最后的错因竟然是：</p><a id="more"></a><ol><li><p>vis[stack[top]]=0写成vis[stack[top]]==0<br><img src="https://i.loli.net/2019/02/17/5c6946e824968.png" alt=""></p></li><li><p>写完后很高兴直接交了，交完后<code>WA</code>，发现没删除调试语句<br><img src="https://i.loli.net/2019/02/17/5c6946e856697.png" alt=""></p></li></ol><p><a href="https://xiaohuang888.github.io/">此题题解</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="UVa11324-The-Largest-Clique"><a href="#UVa11324-The-Largest-Clique" class="headerlink" title="UVa11324 The Largest Clique"></a>UVa11324 The Largest Clique</h3><p>一道<code>Tarjan</code>的标准模板题。我写完代码后调试了将近一个半小时，最后的错因竟然是：</p><a id="more"></a><ol><li><p><code>vis[stack[top]]=0</code>写成<code>vis[stack[top]]==0</code><br><img src="https://i.loli.net/2019/02/17/5c6946e824968.png" alt=""></p></li><li><p>写完后很高兴直接交了，交完后<code>WA</code>，发现没删除调试语句<br><img src="https://i.loli.net/2019/02/17/5c6946e856697.png" alt=""></p></li></ol><p><a href="https://xiaohuang888.github.io/">此题题解</a></p>]]></content>
     
     <summary type="html">
     
