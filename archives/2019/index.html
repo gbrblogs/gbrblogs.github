@@ -788,11 +788,24 @@
   
   
 
-<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+<head>
+    ...
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    ...
+</head>
+<body>
+    ...
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'sV0J31bFutQKt9uWsFTIDFXY-gzGzoHsz',
+            appKey: 'a7TjkdsGGecqz880QT9kVMfN'
+        })
+    </script>
+</body>
 
-
-
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
@@ -802,11 +815,11 @@
   });
   new Valine({
     el: '#comments',
-    verify: true,
+    verify: false,
     notify: false,
-    appId: 'n0e6rRrVlwec97XFqOAnpU9i-gzGzoHsz',
-    appKey: 'BrnUyMpGdRbdExBsd78OvztX',
-    placeholder: 'You can leave a comment here.',
+    appId: 'sV0J31bFutQKt9uWsFTIDFXY-gzGzoHsz',
+    appKey: 'a7TjkdsGGecqz880QT9kVMfN',
+    placeholder: '欢迎评论',
     avatar: 'mm',
     meta: guest,
     pageSize: '13' || 10,
