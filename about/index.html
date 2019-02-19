@@ -560,6 +560,26 @@
 </div>
 
         
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+        clientID: `fda5c7a5ba494604be26`,
+        clientSecret: `ac2713cd67aa701a918431fa6e3bf7587ba8f565`,
+        repo: `https://gbrblogs.github.io/`,
+        owner: 'gbrblogs',
+        admin: ['gbrblogs'],
+        id: 'gbrblogs.github.io', 
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
         <!--
 
   <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
